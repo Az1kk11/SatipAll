@@ -9,7 +9,7 @@ function Dashboard() {
   const {data: products} = useGetData('products')
   const {data: users} = useGetData('users')
   return (
-    <section>
+    <section className='dasboar-card'>
       <Container>
         <Row>
           <Col className='lg-3'>

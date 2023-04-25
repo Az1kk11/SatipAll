@@ -103,7 +103,11 @@ function Header() {
                 >
                   {
                     currentUser ? (
-                      <span onClick={logout} >Logout</span>
+                      <div className='d-flex align-items-center 
+                      justfy-content-center flex-column'>
+                        <span onClick={logout} >Logout</span>
+                        <Link to={'/dashboard'}>Dashboard</Link>
+                      </div>
                     ) : (
                       <div className='d-flex align-items-center 
                       justfy-content-center flex-column' >

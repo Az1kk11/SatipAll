@@ -37,7 +37,7 @@ function Clock() {
   }, []);
 
   return (
-    <div className="clock_wrapper d-flex align-items-center gap-3">
+    <div className="clock_wrapper d-flex align-items-center gap-2">
       <div className="clock_data d-flex align-items-center gap-3">
         <div className="text-center">
           <div className="text-white fs-3 mb-2">{days}</div>

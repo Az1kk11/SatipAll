@@ -4,6 +4,7 @@ import useGetData from "../custom-hooks/useGetData";
 import { deleteDoc, doc } from "firebase/firestore";
 import { db } from "../firebase.config";
 import { toast } from "react-toastify";
+import '../styles/user.css'
 function Users() {
     const { data: usersData, loading } = useGetData("users");
 
@@ -12,7 +13,7 @@ function Users() {
         toast.success("User deleted!");
     };
     return (
-        <section>
+        <section className="users-table">
             <Container>
                 <Row>
                     <Col lg="12">

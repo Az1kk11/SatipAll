@@ -12,3 +12,24 @@ td,
 th {
     color: var(--primary-color);
 }
+.inf-box{
+    margin-top: 30px;
+}
+@media (max-width: 500px) {
+    tr th,
+    tr td{
+        font-size: 14px;;
+        padding: 5px !important;
+    }
+}
+@media (max-width: 370px) {
+    tr th,
+    tr td{
+        font-size: 13px;;
+        padding: 5px !important;
+    }
+    .table tr td img {
+        width: 40px !important;
+        height: 40px !important;
+    }
+}

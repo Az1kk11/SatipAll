@@ -1,0 +1,15 @@
+@media (max-width: 450px) {
+    .all-products .table{
+        font-size: 12px !important;
+    }
+    .all-products .table tbody{
+        font-size: 10px !important;
+    }
+    .all-products .table tbody td{
+        padding: 10px 0px !important;
+    }
+    .all-products .table .btn{
+        font-size: 12px;
+        padding: 3px 6px;
+    }
+}

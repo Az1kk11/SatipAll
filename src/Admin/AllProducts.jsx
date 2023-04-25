@@ -5,7 +5,7 @@ import { Col, Container, Row } from "reactstrap";
 import { db } from "../firebase.config";
 
 import { toast } from "react-toastify";
-
+import '../styles/allProducts.css'
 const AllProducts = () => {
   const { data: productsData, loading } = useGetData("products");
 
@@ -15,7 +15,7 @@ const AllProducts = () => {
   };
 
   return (
-    <section>
+    <section className="all-products">
       <Container>
         <Row>
           <Col lg="12">
@@ -40,7 +40,7 @@ const AllProducts = () => {
                       </td>
                       <td>{item.title}</td>
                       <td className="text-capitalize">{item.category}</td>
-                      <td>$ {item.price}</td>
+                      <td>${item.price}</td>
                       <td>
                         <button
                           onClick={() => deleteProduct(item.id)}

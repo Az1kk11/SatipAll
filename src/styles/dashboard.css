@@ -40,3 +40,40 @@
     font-weight: 600;
     font-size: 2rem;
 }
+@media (max-width: 770px) {
+    .dasboar-card .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .dasboar-card .row div{
+        height: 120px;
+    }
+    .dasboar-card .row h5{
+        font-size: 16px;
+    }
+    .dasboar-card .row span{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 495px) {
+    .dasboar-card .row {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .dasboar-card .row div{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .dasboar-card .row h5{
+        font-size: 18px;
+        margin: 0;
+    }
+    .dasboar-card .row span{
+        font-size: 16px;
+    }
+}

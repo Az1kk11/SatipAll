@@ -1,0 +1,10 @@
+@media (max-width:420px) {
+    .users-table .table td {
+        padding: 5px 3px !important;
+    }
+
+    .users-table .table .btn {
+        padding: 3px 6px;
+        font-size: 14px;
+    }
+}

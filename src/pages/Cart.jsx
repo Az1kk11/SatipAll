@@ -43,13 +43,13 @@ const Cart = () => {
                 </table>
               )}
             </Col>
-            <Col lg='3'>
-              <div>
+            <Col lg='3' className='inf-box'>
+              <>
                 <h6 className='d-flex align-items=center justify-content-between' >
                   Ja'mi bolip
                   <span className='fs-5 fw-bold'>${totalAmount}</span>
                 </h6>
-              </div>
+              </>
               <p className="fs-6 mt-2" >Satıp alınǵan zatlar kassada esaplab shıǵıladı </p>
               <div>
                 <button className='buy__btn mt-3 w-100'>

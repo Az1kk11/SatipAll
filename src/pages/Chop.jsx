@@ -71,7 +71,7 @@ const Chop = () => {
       <section>
         <Container>
           <Row>
-            <Col lg='3' md='6'>
+            <Col lg='3' md='6' className='width'>
               <div className="filter-widget">
                 <select onChange={handlerFilter} >
                   <option value='all'>filtrlew</option>
@@ -83,7 +83,7 @@ const Chop = () => {
                 </select>
               </div>
             </Col>
-            <Col lg='3' md='6' className='text-end'>
+            <Col lg='3' md='6' className='text-end width'>
               <div className="filter-widget">
                 <select>
                   <option>Saralaw túri</option>
